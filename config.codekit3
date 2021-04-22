@@ -62,44 +62,28 @@
 		"oAP": "/dev/content/svg/foreground.html",
 		"oF": 0
 		},
-	"/dev/content/svg/foreground/front/front.kit": {
+	"/dev/content/svg/foreground/alien.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 0,
-		"oAP": "/dev/content/svg/foreground/front/front.html",
+		"oA": 1,
+		"oAP": "/dev/content/svg/foreground/alien.html",
 		"oF": 0
 		},
-	"/dev/content/svg/foreground/middle/mtn-front-left.kit": {
+	"/dev/content/svg/foreground/flashes.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 0,
-		"oAP": "/dev/content/svg/foreground/middle/mtn-front-left.html",
+		"oA": 1,
+		"oAP": "/dev/content/svg/foreground/flashes.html",
 		"oF": 0
 		},
-	"/dev/content/svg/foreground/middle/mtn-front-right.kit": {
+	"/dev/content/svg/foreground/ufo.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 0,
-		"oAP": "/dev/content/svg/foreground/middle/mtn-front-right.html",
-		"oF": 0
-		},
-	"/dev/content/svg/foreground/middle/orange-mtn.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dev/content/svg/foreground/middle/orange-mtn.html",
-		"oF": 0
-		},
-	"/dev/content/svg/foreground/middle/red-mtn.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dev/content/svg/foreground/middle/red-mtn.html",
+		"oA": 1,
+		"oAP": "/dev/content/svg/foreground/ufo.html",
 		"oF": 0
 		},
 	"/dev/content/svg/middleground.kit": {
