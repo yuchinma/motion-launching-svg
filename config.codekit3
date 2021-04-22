@@ -38,6 +38,14 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/design/Launching svg create.sketch": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/design/Launching svg create.sketch",
+		"oF": 0
+		},
 	"/dev/content/svg-container.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -52,6 +60,54 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/content/svg/background.html",
+		"oF": 0
+		},
+	"/dev/content/svg/background/clouds.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/svg/background/clouds.html",
+		"oF": 0
+		},
+	"/dev/content/svg/background/ocean.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/svg/background/ocean.html",
+		"oF": 0
+		},
+	"/dev/content/svg/background/sand.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/svg/background/sand.html",
+		"oF": 0
+		},
+	"/dev/content/svg/background/sky.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/svg/background/sky.html",
+		"oF": 0
+		},
+	"/dev/content/svg/background/sunray.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/svg/background/sunray.html",
+		"oF": 0
+		},
+	"/dev/content/svg/background/sunset.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/svg/background/sunset.html",
 		"oF": 0
 		},
 	"/dev/content/svg/foreground.kit": {
@@ -76,6 +132,14 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/content/svg/foreground/flashes.html",
+		"oF": 0
+		},
+	"/dev/content/svg/foreground/grass.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/svg/foreground/grass.html",
 		"oF": 0
 		},
 	"/dev/content/svg/foreground/tree.kit": {
