@@ -1,8 +1,6 @@
 import { gsap } from "gsap";
 import { GSDevTools } from "gsap/GSDevTools";
 
-import {numberThing} from "./demo-this"
-
 import { zoomTL } from "./zoomIn"
 import { fadeInTL } from "./fadeIn"
 
