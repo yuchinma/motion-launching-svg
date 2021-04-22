@@ -78,20 +78,20 @@
 		"oAP": "/dev/content/svg/foreground/flashes.html",
 		"oF": 0
 		},
+	"/dev/content/svg/foreground/tree.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/svg/foreground/tree.html",
+		"oF": 0
+		},
 	"/dev/content/svg/foreground/ufo.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/content/svg/foreground/ufo.html",
-		"oF": 0
-		},
-	"/dev/content/svg/middleground.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/content/svg/middleground.html",
 		"oF": 0
 		},
 	"/dev/content/svg/planet.kit": {
