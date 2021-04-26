@@ -38,6 +38,14 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/design/Launching svg create.sketch": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/design/Launching svg create.sketch",
+		"oF": 0
+		},
 	"/dev/content/svg-container.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -204,13 +212,13 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/js/zoomIn.js": {
+	"/dev/js/waves.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/dev/js/zoomIn-min.js",
+		"oAP": "/dev/js/waves-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0

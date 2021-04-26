@@ -1,7 +1,7 @@
 import { gsap } from "gsap";
 import { GSDevTools } from "gsap/GSDevTools";
 
-import { zoomTL } from "./zoomIn"
+import { wavesTL } from "./waves"
 import { fadeInTL } from "./fadeIn"
 
 gsap.registerPlugin(GSDevTools);
@@ -9,7 +9,7 @@ gsap.registerPlugin(GSDevTools);
 let mainTL = gsap.timeline();
 
 mainTL.add(fadeInTL)
-        .add(zoomTL);
+        .add(wavesTL);
 
 
 // console.log(numberThing);
