@@ -190,13 +190,24 @@
 		"oAP": "/deploy/index.html",
 		"oF": 2
 		},
-	"/dev/js/fadeIn.js": {
+	"/dev/js/clouds.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/dev/js/fadeIn-min.js",
+		"oAP": "/dev/js/clouds-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/grass.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/grass-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -212,6 +223,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/js/sunray.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/sunray-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/sunset.js": {
 		"bF": 0,
 		"ft": 64,
@@ -219,6 +241,17 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/sunset-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/tree.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/tree-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0

@@ -4,4 +4,4 @@ export let sunsetTL = gsap.timeline();
 
 gsap.set("#sunset",{transformOrigin:"center bottom"});
 
-sunsetTL.from("#sunset", {duration: .5, scale: 7});
+sunsetTL.from("#sunset", {duration: 3, scale: 7, ease: "back"});
