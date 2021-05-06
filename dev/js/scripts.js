@@ -7,17 +7,19 @@ import { sunrayTL } from "./sunray"
 import { cloudsTL } from "./clouds"
 import { grassTL } from "./grass"
 import { treeTL } from "./tree"
+import { ufoAppearsTL } from "./ufoAppears"
 
 gsap.registerPlugin(GSDevTools);
 
 let mainTL = gsap.timeline();
 
 mainTL.add(sunsetTL)
-        .add(wavesTL)
+        .add(wavesTL, "-=2")
         .add(sunrayTL)
         .add(cloudsTL)
-        .add(grassTL)
-        .add(treeTL);
+        .add(grassTL, "-=2")
+        .add(treeTL)
+        .add(ufoAppearsTL);
 
 
 // console.log(numberThing);
