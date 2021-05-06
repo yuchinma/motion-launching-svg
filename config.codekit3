@@ -182,17 +182,6 @@
 		"oAP": "/deploy/index.html",
 		"oF": 2
 		},
-	"/dev/js/backIn.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/dev/js/backIn-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"/dev/js/clouds.js": {
 		"bF": 0,
 		"ft": 64,
@@ -204,6 +193,28 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/js/flyOut-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dev/js/flyOut-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/flyOut.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/flyOut-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/grass.js": {
 		"bF": 0,
 		"ft": 64,
@@ -211,17 +222,6 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/grass-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/js/liftOff.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/dev/js/liftOff-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -288,6 +288,17 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/waves-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/wind.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/wind-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0

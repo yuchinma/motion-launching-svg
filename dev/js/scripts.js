@@ -8,8 +8,8 @@ import { cloudsTL } from "./clouds"
 import { grassTL } from "./grass"
 import { treeTL } from "./tree"
 import { ufoAppearsTL } from "./ufoAppears"
-import { lifeOffTL } from "./liftOff"
-import { backInTL } from "./backIn"
+import { flyOutTL } from "./flyOut"
+import { windTL } from "./wind"
 
 gsap.registerPlugin(GSDevTools);
 
@@ -23,8 +23,8 @@ mainTL.add(sunsetTL)
         .add(treeTL, "-=.5")
         .add(ufoAppearsTL, "+=.5")
         .addLabel("marker")
-        .add(lifeOffTL, "+=1")
-        .add(backInTL, "+=2");
+        .add(flyOutTL, "+=1")
+        .add(windTL);
 
         mainTL.play("marker");
 
