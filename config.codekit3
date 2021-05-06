@@ -118,14 +118,6 @@
 		"oAP": "/dev/content/svg/foreground.html",
 		"oF": 0
 		},
-	"/dev/content/svg/foreground/alien.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/content/svg/foreground/alien.html",
-		"oF": 0
-		},
 	"/dev/content/svg/foreground/flashes.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -150,12 +142,12 @@
 		"oAP": "/dev/content/svg/foreground/tree.html",
 		"oF": 0
 		},
-	"/dev/content/svg/foreground/ufo.kit": {
+	"/dev/content/svg/foreground/whole-spaceship.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/content/svg/foreground/ufo.html",
+		"oAP": "/dev/content/svg/foreground/whole-spaceship.html",
 		"oF": 0
 		},
 	"/dev/content/svg/planet.kit": {
@@ -189,6 +181,17 @@
 		"oA": 0,
 		"oAP": "/deploy/index.html",
 		"oF": 2
+		},
+	"/dev/js/backIn.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/backIn-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"/dev/js/clouds.js": {
 		"bF": 0,

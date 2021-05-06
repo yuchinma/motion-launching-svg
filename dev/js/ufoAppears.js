@@ -28,7 +28,7 @@ ufoAppearsTL.from("#ufo-top, #ufo-body, #ufo-bottom", {duration: .5, alpha: 0, y
         .to("#ufo-top, #ufo-body, #ufo-bottom, #ufo-reflection, #ufo-yellow-lights, #ufo-controls", {duration: .75, y: "+=10", yoyo: true, repeat: 4, ease: "none"})
         .from("#ufo-wheels", {duration: 1, alpha: 0, y: "-=100"}, "-=.1")
 //alien appear, light out
-        .from("#alien", {duration: .2, alpha: 0, scale: 20}, "+=1")
+        .from("#alien", {duration: .2, alpha: 0, scale: 20}, "+=.5")
         .to("#alien", {duration: .2, scale: 1.3})
         .to("#alien", {duration: .2, scale: 1})
         .to("#ufo-controls", {duration: .2, scaleX: 1.2, scaleY: 1.5}, "+=.5")
