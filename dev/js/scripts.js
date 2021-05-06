@@ -8,6 +8,7 @@ import { cloudsTL } from "./clouds"
 import { grassTL } from "./grass"
 import { treeTL } from "./tree"
 import { ufoAppearsTL } from "./ufoAppears"
+import { lifeOffTL } from "./liftOff"
 
 gsap.registerPlugin(GSDevTools);
 
@@ -18,10 +19,13 @@ mainTL.add(sunsetTL)
         .add(sunrayTL)
         .add(cloudsTL)
         .add(grassTL, "-=2")
-        .add(treeTL)
-        .add(ufoAppearsTL);
+        .add(treeTL, "-=.5")
+        .add(ufoAppearsTL, "+=.5")
+        .addLabel("marker")
+        .add(lifeOffTL, "+=1");
 
+        mainTL.play("marker");
 
 // console.log(numberThing);
 
-GSDevTools.create();
+// GSDevTools.create();
