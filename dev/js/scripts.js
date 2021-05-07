@@ -22,8 +22,8 @@ mainTL.add(sunsetTL)
         .add(grassTL, "-=2")
         .add(treeTL, "-=.5")
         .add(ufoAppearsTL, "+=.5")
-        .addLabel("marker")
         .add(flyOutTL, "+=1")
+        .addLabel("marker")
         .add(windTL);
 
         mainTL.play("marker");
