@@ -10,6 +10,7 @@ import { treeTL } from "./tree"
 import { ufoAppearsTL } from "./ufoAppears"
 import { flyOutTL } from "./flyOut"
 import { windTL } from "./wind"
+import { liftOffTL } from "./liftOff"
 
 gsap.registerPlugin(GSDevTools);
 
@@ -21,12 +22,14 @@ mainTL.add(sunsetTL)
         .add(cloudsTL, "-=.5")
         .add(grassTL, "-=2")
         .add(treeTL, "-=.5")
+        // .addLabel("marker")
+
         .add(ufoAppearsTL, "+=.5")
         .add(flyOutTL, "+=1")
-        .addLabel("marker")
-        .add(windTL);
+        .add(windTL, "-=5")
+        .add(liftOffTL);
 
-        mainTL.play("marker");
+        // mainTL.play("marker");
 
 // console.log(numberThing);
 

@@ -27,13 +27,13 @@ flyOutTL.to("#smile", {duration: .75, scale: 1.2}, "smile")
         .to("#flash-3", {duration: .15, scale: 1})
         .to("#flash-3", {duration: .15, alpha: 0})
 
-        .to("#ufo-wheels", {duration: 1, alpha: 0, y: "-=100"}, "+=.5")
+        .to("#ufo-wheels", {duration: 1, alpha: 0, y: "-=100"}, "-=.3")
 
 //floating and fly away
         .to("#ufo-top, #ufo-body, #ufo-bottom, #ufo-reflection, #ufo-yellow-lights, #ufo-controls, #alien", {duration: .75, y: "-=10", ease: "none"}, "-=.5")
         .to("#ufo-top, #ufo-body, #ufo-bottom, #ufo-reflection, #ufo-yellow-lights, #ufo-controls, #alien", {duration: .75, y: "+=10", yoyo: true, repeat: 4, ease: "none"})
         .to("#ufo-top, #ufo-body, #ufo-bottom, #ufo-reflection, #ufo-yellow-lights, #ufo-controls, #alien", {duration: .5, y: "+=50"}, "-=.5")
 
-        .to("#whole-spaceship", {duration: 3, motionPath: {path: "#flyInOut", align:"#flyInOut", alignOrigin: [0.5, 0.5], autoRotate: 90}, ease: "power4.out", scale: 1})
+        .to("#whole-spaceship", {duration: 5, motionPath: {path: "#flyInOut", align:"#flyInOut", alignOrigin: [0.5, 0.5], autoRotate: 90}, ease: "power4.out", scale: 1})
 
         // MotionPathHelper.create("#whole-spaceship");
