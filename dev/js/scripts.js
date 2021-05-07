@@ -22,10 +22,10 @@ mainTL.add(sunsetTL)
         .add(cloudsTL, "-=.5")
         .add(grassTL, "-=2")
         .add(treeTL, "-=.5")
-        // .addLabel("marker")
-
         .add(ufoAppearsTL, "+=.5")
         .add(flyOutTL, "+=1")
+        // .addLabel("marker")
+
         .add(windTL, "-=5")
         .add(liftOffTL);
 
