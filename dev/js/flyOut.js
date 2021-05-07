@@ -7,11 +7,13 @@ gsap.registerPlugin(MotionPathPlugin, MotionPathHelper);
 export let flyOutTL = gsap.timeline();
 
 gsap.set("#tree", {transformOrigin: "left bottom"});
+gsap.set("#antenna-right, #antenna-left", {transformOrigin: "center bottom"});
 
-//ready to lift off
+//alien smile, ready to lift off
 flyOutTL.to("#smile", {duration: .75, scale: 1.2}, "smile")
         .to("#eye", {duration: .75, scale: 1.1}, "smile")
-        .to("#smile, #eye", {duration: .75, scale: 1})
+        .to("#antenna-right, #antenna-left", {duration: .75, scale: 1.2}, "smile")
+        .to("#smile, #eye, #antenna-right, #antenna-left", {duration: .75, scale: 1})
 
         .to("#ufo-controls", {duration: .2, scaleX: 1.2, scaleY: 1.5})
         .to("#ufo-controls", {duration: .2, scaleX: 1, scaleY: 1})

@@ -24,12 +24,11 @@ mainTL.add(sunsetTL)
         .add(treeTL, "-=.5")
         .add(ufoAppearsTL, "+=.5")
         .add(flyOutTL, "+=1")
-        // .addLabel("marker")
-
         .add(windTL, "-=5")
+        .addLabel("marker")
         .add(liftOffTL);
 
-        // mainTL.play("marker");
+        mainTL.play("marker");
 
 // console.log(numberThing);
 
