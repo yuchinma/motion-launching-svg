@@ -102,6 +102,14 @@
 		"oAP": "/dev/content/svg/background/space.html",
 		"oF": 0
 		},
+	"/dev/content/svg/background/stars.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/svg/background/stars.html",
+		"oF": 0
+		},
 	"/dev/content/svg/background/sunray.kit": {
 		"cB": 0,
 		"ft": 2048,
