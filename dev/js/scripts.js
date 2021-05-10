@@ -33,6 +33,7 @@ mainTL.add(sunsetTL)
         .add(intoSpaceTL);
 
         mainTL.play("marker");
+        // mainTL.play();
 
 // console.log(numberThing);
 
