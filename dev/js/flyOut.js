@@ -33,7 +33,7 @@ flyOutTL.to("#smile", {duration: .75, scale: 1.2}, "smile")
 
 //floating and fly away
         .to("#ufo-top, #ufo-body, #ufo-bottom, #ufo-reflection, #ufo-yellow-lights, #ufo-controls, #alien", {duration: .75, y: "-=10", ease: "none"}, "-=.5")
-        .to("#ufo-top, #ufo-body, #ufo-bottom, #ufo-reflection, #ufo-yellow-lights, #ufo-controls, #alien", {duration: .75, y: "+=10", yoyo: true, repeat: 4, ease: "none"})
+        .to("#ufo-top, #ufo-body, #ufo-bottom, #ufo-reflection, #ufo-yellow-lights, #ufo-controls, #alien", {duration: .75, y: "+=10", yoyo: true, repeat: 2, ease: "none"})
         .to("#ufo-top, #ufo-body, #ufo-bottom, #ufo-reflection, #ufo-yellow-lights, #ufo-controls, #alien", {duration: .5, y: "+=50"}, "-=.5")
 
         .to("#whole-spaceship", {duration: 5, motionPath: {path: "#flyInOut", align:"#flyInOut", alignOrigin: [0.5, 0.5], autoRotate: 90}, ease: "power4.out", scale: 1})

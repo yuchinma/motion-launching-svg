@@ -27,13 +27,14 @@ mainTL.add(sunsetTL)
         .add(ufoAppearsTL, "+=.5")
         .add(flyOutTL, "+=1")
         .add(windTL, "-=5")
-        .addLabel("marker")
         .add(liftOffTL)
         .add(starsOutTL, "-=1.5")
         .add(intoSpaceTL, "-=2");
 
-        mainTL.play("marker");
-        // mainTL.play();
+        // .addLabel("marker")
+
+        // mainTL.play("marker");
+        mainTL.play();
 
 // console.log(numberThing);
 

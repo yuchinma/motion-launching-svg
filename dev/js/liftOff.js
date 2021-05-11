@@ -7,7 +7,7 @@ gsap.set("#clouds g",{transformOrigin:"center center"});
 // gsap.set("#coconut-mid", {transformOrigin: "center top"});
 
 liftOffTL.to("#whole-spaceship", {duration: .75, y: "-=10", ease: "none"})
-        .to("#whole-spaceship", {duration: .75, y: "-=10", yoyo: true, repeat: 5, ease: "none"})
+        .to("#whole-spaceship", {duration: .75, y: "-=10", yoyo: true, repeat: 3, ease: "none"})
         .to("#sunray", {duration: .75, alpha: 0, scale: 0, x: "+=75"}, "-=.5")
         .to("#tree", {duration: 2.9, alpha: 0, y: "+=900", ease: "power3.in"}, "away")
         .to("#grass", {duration: 2.5, alpha: 0, y: "+=400", ease: "power3.in"}, "away")

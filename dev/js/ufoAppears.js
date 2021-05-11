@@ -25,7 +25,7 @@ ufoAppearsTL.from("#ufo-top, #ufo-body, #ufo-bottom", {duration: .5, alpha: 0, y
         .from("#ufo-controls", {duration: .5, alpha: 0, y: "+=50", ease: "back"})
 //ufo floating in air
         .to("#ufo-top, #ufo-body, #ufo-bottom, #ufo-reflection, #ufo-yellow-lights, #ufo-controls", {duration: .75, y: "-=10", ease: "none"})
-        .to("#ufo-top, #ufo-body, #ufo-bottom, #ufo-reflection, #ufo-yellow-lights, #ufo-controls", {duration: .75, y: "+=10", yoyo: true, repeat: 4, ease: "none"})
+        .to("#ufo-top, #ufo-body, #ufo-bottom, #ufo-reflection, #ufo-yellow-lights, #ufo-controls", {duration: .75, y: "+=10", yoyo: true, repeat: 2, ease: "none"})
 //flashes, wheels come down
         .from("#flash-1", {duration: .15, alpha: 0, scale: 1}, "-=.5")
         .to("#flash-1", {duration: .15, scale: 1.2})
