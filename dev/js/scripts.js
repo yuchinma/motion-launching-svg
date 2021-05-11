@@ -11,7 +11,7 @@ import { ufoAppearsTL } from "./ufoAppears"
 import { flyOutTL } from "./flyOut"
 import { windTL } from "./wind"
 import { liftOffTL } from "./liftOff"
-// import { starsOutTL } from "./starsOut"
+import { starsOutTL } from "./starsOut"
 import { intoSpaceTL } from "./intoSpace"
 
 gsap.registerPlugin(GSDevTools);
@@ -27,10 +27,10 @@ mainTL.add(sunsetTL)
         .add(ufoAppearsTL, "+=.5")
         .add(flyOutTL, "+=1")
         .add(windTL, "-=5")
-        .add(liftOffTL)
-        // .add(starsOutTL)
         .addLabel("marker")
-        .add(intoSpaceTL);
+        .add(liftOffTL)
+        .add(starsOutTL, "-=1.5")
+        .add(intoSpaceTL, "-=2");
 
         mainTL.play("marker");
         // mainTL.play();
